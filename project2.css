@@ -61,8 +61,7 @@
     font-weight: 500;
     margin-top: 30px;
     width: 243;
-   
-          }
+             }
 .head {
     display: flex;
     align-content: center;
@@ -81,7 +80,10 @@
     font-size: 19px;
     margin-left: 20px;
         }
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .socialmedia {
     display: flex;
     width: 350px;
@@ -138,5 +140,48 @@
        
  }
  .frontimage {
-    background-image: 
+    width: 100%;
+    height: 620px;
+    background-image: url("./Wellness\ by\ Myhra_files/Nutritionist-sitting-in-front-of-computer.jpg");
+    background-size: cover;
+    background-position-y:77%;
+    
+ }
+ .workwith {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding-left: 35%;
+    align-items: end;
+    background-color: #3D4435;
+    color: #FFFFFF; 
+    font-size: 40px;
+ }
+ .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0%;
+    padding: 0px 120px;
+    font-size: 30px;
+    height: 100px;
+    background-color: #3D4435;
+    color: #FFFFFF; 
+ }
+ .choice {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    background-color: #3D4435;
+    color: #FFFFFF; 
+ }
+ .learn {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 60px;
+    gap: 30%;
+    padding-left: 10%;
+    background-color: #3D4435;
+    color: #FFFFFF; 
  }
