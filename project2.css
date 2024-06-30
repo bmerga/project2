@@ -47,6 +47,7 @@
   .top {
     display: flex;
     flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
     color: #FFFFFF; 
     width: 100%;
     box-sizing: border-box;
@@ -56,7 +57,6 @@
   .title { 
     display: flex;
     align-self: center;
-    font-family: Arial, sans-serif;
     font-size: 30px;
     font-weight: 500;
     margin-top: 30px;
@@ -78,7 +78,7 @@
     height: 70px;
     align-items: center;
     gap: 35px;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 20px;
         }
 
@@ -90,16 +90,16 @@
 .log {
     display: flex;
     width: 270px;
-    font-size: 19px;
+    font-size: 18px;
     margin-left:1090px;
     margin-top: -95px;
         }
 .login {
-    padding: 10px;
+    padding: 8px;
 }
 .work {
-    width: 165px;
-    height: 50px;
+    width: 163px;
+    height: 55px;
     padding: 10px 30px;
     background-color: #C2C8CC;
     color: #000000;
@@ -109,15 +109,34 @@
  display: flex;
  flex-direction: column;
  align-items: center;
- margin-top: 150px;   
- height: 170px;
- 
+ margin-top: 130px;   
+ height: 245px;
+ margin-left: 50px;
+ gap: 16px;
+ color: #FFFFFF;
  }
- .second {
-    display: flex;
-    align-items: end;
-    border: red solid;
+ .first {
+    font-size: 19px;
+     }
+.second {
+   display: flex;
+   flex-direction: column;
+   font-size: 45px;
+}
+ .second1 {
     width: 530px;
     padding-left: 30px;
-    font-size: 45px;
+    padding-top: 20px;
+            }
+ .second2 {
+    display: flex;
+    margin-top: 0px;
+    align-content: flex-start;
+    padding: 0px 70px;
+    width: 530px;
+    height: 70px;
+       
+ }
+ .frontimage {
+    background-image: 
  }
