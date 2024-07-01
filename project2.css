@@ -171,17 +171,39 @@ a {
  .choice {
     display: flex;
     justify-content: space-between;
-    padding: 0px 60px;
+    padding: 0px 35px;
+    gap: 38px;
     background-color: #3D4435;
     color: #FFFFFF; 
+    text-align: center;
  }
  .learn {
     display: flex;
     justify-self: center;
     align-items: center;
     height: 60px;
-    gap: 30%;
-    padding-left: 10%;
+    gap: 400px;
+    padding-left: 150px;
+    padding-bottom: 170px;
+    padding-top: 20px;
     background-color: #3D4435;
     color: #FFFFFF; 
+ }
+ 
+.page3 { 
+    display: flex;
+    width: 100%;
+    height: 605px;
+    padding-top: 35px;
+    background-color: #3D4435;
+    color: #FFFFFF; 
+    
+}
+ .imageeating {
+    width: 680px;
+    height: 380px;
+    margin-top: 10%;
+    background-image: url("Wellness\ by\ Myhra_files/image-asset.jpeg");
+    background-position: center;
+    background-size: cover;
  }
