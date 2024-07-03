@@ -44,6 +44,11 @@
   #root, #__next {
     isolation: isolate;
   }
+  .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #3D4435; 
+      }
   .top {
     display: flex;
     flex-direction: column;
@@ -52,7 +57,7 @@
     width: 100%;
     box-sizing: border-box;
     height: 480px;
-    background-color: #3D4435; 
+    
       }
   .title { 
     display: flex;
@@ -153,9 +158,9 @@ a {
     height: 150px;
     padding-left: 35%;
     align-items: end;
+    font-size: 40px;
     background-color: #3D4435;
     color: #FFFFFF; 
-    font-size: 40px;
  }
  .list {
     display: flex;
@@ -164,7 +169,6 @@ a {
     margin-bottom: 0%;
     padding: 0px 120px;
     font-size: 30px;
-    height: 100px;
     background-color: #3D4435;
     color: #FFFFFF; 
  }
