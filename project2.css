@@ -227,12 +227,32 @@ a {
  .try {
   display: flex;
   flex-direction: column;
-  border: red solid;
   display: flex;
   width: 250px;
   margin-top: 10px;
   margin-left: 680px;
  }
  .target {
-  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin-top: -200px;
+  margin-left: 980px;
+ }
+ .page4 {
+   height: 635px;
+   padding-top: 35px;
+   color: #FFFFFF; 
+ }
+ .wellness {
+  font-size: 20px;
+  width: 120px;
+  margin-top: -10px;
+ }
+ .creating {
+  width: 600px;
+  height:120px;
+  margin-left: 680px;
+  margin-top: -460px;
+  font-size: 32px;
  }
