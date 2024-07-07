@@ -253,6 +253,21 @@ a {
   width: 600px;
   height:120px;
   margin-left: 680px;
-  margin-top: -460px;
+  margin-top: -480px;
   font-size: 32px;
  }
+ .through   {
+  width: 520px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 680px;
+}
+.imageasset1 {
+  width: 305px;
+  height: 363px;
+  margin-top: 50px;
+  margin-left: 0px;
+  background-image: url("Wellness by Myhra_files/image-asset(1).jpeg");
+  background-size: cover;
+  background-position-y: 70%; 
+}
