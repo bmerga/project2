@@ -284,11 +284,38 @@ a {
   cursor: pointer;
   
 }
+.page5 {
+  display: flex;
+  height: 500px;
+    
+}
+
 .recipes {
   padding: 30px 0px;
   font-size: 20px;
   color: white;
 }
+.immages5 {
+  color: #FFFFFF; 
+  display: flex;
+  align-self: center;
+  margin-left: -80px;
+  gap: 35px;
+     }
 .imageasset21 {
-  
+  width: 230px;
+  height: 343px;
+
+}
+.imageasset22 {
+  width: 362px;
+}
+imageasset23 {
+  width: 342px;
+}
+.imageasset24 {
+  width: 342px;
+}
+.imageasset25 {
+  width: 542px;
 }
