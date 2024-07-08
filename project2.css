@@ -151,7 +151,7 @@ a {
     background-image: url("./Wellness\ by\ Myhra_files/Nutritionist-sitting-in-front-of-computer.jpg");
     background-size: cover;
     background-position-y:77%;
-    
+        
  }
  .workwith {
     display: flex;
@@ -215,7 +215,7 @@ a {
     background-image: url("Wellness\ by\ Myhra_files/image-asset.jpeg");
     background-size: cover;
     background-position-y: 70%;
- }
+     }
  .improving {
   width: 600px;
   height:120px;
@@ -270,7 +270,7 @@ a {
   background-image: url("Wellness by Myhra_files/image-asset(1).jpeg");
   background-size: cover;
   background-position-y: 70%; 
-}
+  }
 .button {
   margin-top: 55px;
   margin-left: 680px;
@@ -300,22 +300,47 @@ a {
   display: flex;
   align-self: center;
   margin-left: -80px;
-  gap: 35px;
-     }
+  gap: 26px;
+   
+       }
+
 .imageasset21 {
   width: 230px;
   height: 343px;
-
+  background-image: url("Wellness by Myhra_files/Screen+Shot+2020-04-29+at+4.39.50+PM.png");
+  background-position: center;
+  background-size: cover;
+    
 }
 .imageasset22 {
-  width: 362px;
+  width: 230px;
+  height: 343px;
+  background-image: url("Wellness by Myhra_files/Stocksy_comp_1276830.jpg");
+  background-position: center;
+  background-size: cover;
+ 
 }
-imageasset23 {
-  width: 342px;
+.imageasset23 {
+  width: 230px;
+  height: 343px;
+  background-image: url("Wellness by Myhra_files/Stocksy_comp_2610683.jpg");
+  background-position: center;
+  background-size: cover;
+  
 }
 .imageasset24 {
-  width: 342px;
+  width: 230px;
+  height: 343px;
+  background-image: url("Wellness by Myhra_files/Stocksy_comp_1953842.jpg");
+  background-position: center;
+  background-size: cover;
+  
 }
 .imageasset25 {
-  width: 542px;
+  width: 230px;
+  height: 343px;
+  background-image: url("Wellness by Myhra_files/Stocksy_comp_3069917.jpg");
+  background-position: center;
+  background-size: cover;
+  
 }
