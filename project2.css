@@ -240,7 +240,7 @@ a {
   margin-left: 980px;
  }
  .page4 {
-   height: 635px;
+   height: 655px;
    padding-top: 35px;
    color: #FFFFFF; 
  }
@@ -271,15 +271,24 @@ a {
   background-size: cover;
   background-position-y: 70%; 
 }
-.book {
-  display: flex;
-  border: red solid;
-  width: 300px;
-  height: 80px;
-  margin-top: 50px;
+.button {
+  margin-top: 55px;
   margin-left: 680px;
-  align-self: center;
-  padding: auto;
   background-color: #C2C8CC;
+  color: black;
+  padding: 17px 54px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+.recipes {
+  padding: 30px 0px;
+  font-size: 20px;
+  color: white;
+}
+.imageasset21 {
   
 }
