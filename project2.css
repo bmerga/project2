@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     background-color: #3D4435; 
-    padding: 30px 50px;
+    padding: 30px 50px 0px 50px;
       }
   .top {
     display: flex;
@@ -91,7 +91,8 @@ a {
     display: flex;
     width: 350px;
     height: 70px;
-}
+    gap: 20%;
+    }
 .log {
     display: flex;
     width: 229px;
@@ -344,3 +345,54 @@ a {
   background-size: cover;
   
 }
+.page5link {
+  display: flex;
+  font-size: 18px;
+  color: #FFFFFF;
+  align-items: center;
+  margin-top: -60px;
+  margin-bottom: 60px;
+ 
+}
+.energizing {
+  
+  }
+.salmon {
+  width: fit-content;
+  margin-left: 100px;
+}
+.fruit {
+  width:fit-content;
+  margin-left: 115px;
+}
+.avocado {
+  width:fit-content;
+  margin-left: 96px;
+}
+.ginger {
+  width: fit-content;
+  margin-left: 153px;
+  }
+  .nevermiss {
+    background-color: #C2C8CC;
+    margin: 0px -50px 0px -50px;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 45px;
+      }
+  .email {
+    padding: 50px;
+    font-size: 18px;
+    font-weight:lighter;
+  }
+  .emailadress {
+    width: 280px;
+    height: 72px;
+    padding-left: 30px;
+  }
+  .emailsubmit {
+    width: 124px;
+    height: 64px;
+    background-color: #000000;
+    color: #FFFFFF;
+      }
