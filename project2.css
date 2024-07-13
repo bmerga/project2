@@ -145,6 +145,24 @@ a {
     height: 70px;
        
  }
+ .dropdown {
+  position:relative;
+  display:inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3D4435;
+  min-width:160px;
+  padding: 12px 0px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
  .frontimage {
     width: 1347px;
     height: 620px;
@@ -354,24 +372,22 @@ a {
   margin-bottom: 60px;
  
 }
-.energizing {
-  
-  }
+
 .salmon {
-  width: fit-content;
+  width: 171px;
   margin-left: 100px;
 }
 .fruit {
-  width:fit-content;
-  margin-left: 115px;
+  width:160px;
+  margin-left: 90px;
 }
 .avocado {
-  width:fit-content;
+  width:160px;
   margin-left: 96px;
 }
 .ginger {
-  width: fit-content;
-  margin-left: 153px;
+  width: 130px;
+  margin-left: 95px;
   }
   .nevermiss {
     background-color: #C2C8CC;
