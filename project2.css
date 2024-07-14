@@ -48,40 +48,40 @@
     display: flex;
     flex-direction: column;
     background-color: #3D4435; 
-    padding: 30px 50px 0px 50px;
-      }
+    padding: 30px 0px 0px 0px;
+    max-width: 100vw;
+    border: blue solid;
+          }
   .top {
     display: flex;
     flex-direction: column;
     font-family:'Times New Roman', Times, serif;
     color: #FFFFFF; 
     width: 100%;
-    box-sizing: border-box;
-    
-      }
+    height:auto;
+    padding-left: 30px;
+          }
   .title { 
     display: flex;
-    align-self: center;
+    align-self: center;;
     font-size: 30px;
     font-weight: 500;
-    width: 243;
-             }
+                     }
 .head {
     display: flex;
-    align-content: center;
-    align-items: center;
-    font-size: 20px;
-    gap: 260px;
-    width: 875px;
-              }
+    font-size: 1em;
+    gap: 32%;
+    width: 70vw;
+    height: auto;
+                      }
 .home {
     display: flex;
-    width: 750px;
-    height: 70px;
+    width: 73%;
+    height: auto;
     align-items: center;
-    gap: 35px;
-    font-size: 19px;
-    margin-left: 20px;
+    gap: 5%;
+    font-size: 1.2em;
+    
         }
 a {
     text-decoration: none;
@@ -89,29 +89,30 @@ a {
 }
 .socialmedia {
     display: flex;
-    width: 350px;
+    width: 12vw;
     height: 70px;
     gap: 20%;
+    
     }
 .log {
     display: flex;
-    width: 229px;
+    width: 15vw;
+    height: auto;
     font-size: 18px;
-    margin-left: 1023px;
-    margin-top: -93px;
-    
-        }
+    margin-left: 81%;
+    margin-top: -8%;
+            }
 .login {
     padding: 8px;
-}
+    }
 .work {
-    width: 163px;
-    height: 57px;
+   width: 100%;
+    height: auto;
     text-align: center;
     padding-top: 12px;
     background-color: #C2C8CC;
     color: #000000;
-     
+    
 }
 .middle {
  display: flex;
@@ -164,12 +165,11 @@ a {
   display: block;
 }
  .frontimage {
-    width: 1347px;
-    height: 620px;
-    margin-left: -50px;
+    width: 100%;
+    height: 100vh;
     background-image: url("./Wellness\ by\ Myhra_files/Nutritionist-sitting-in-front-of-computer.jpg");
-    background-size: cover;
-    background-position-y:77%;
+    background-size:cover;
+    background-position-y:84%;
         
  }
  .workwith {
@@ -190,6 +190,8 @@ a {
     padding: 55px 120px;
     font-size: 30px;
     color: #FFFFFF; 
+    
+    
  }
  .choice {
     display: flex;
@@ -391,7 +393,7 @@ a {
   }
   .nevermiss {
     background-color: #C2C8CC;
-    margin: 0px -50px 0px -50px;
+    margin-left:-50px ;
     text-align: center;
     font-size: 26px;
     padding-top: 45px;
