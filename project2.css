@@ -70,19 +70,19 @@
 .head {
     display: flex;
     font-size: 1em;
-    gap: 32%;
+    gap: 27%;
     width: 70vw;
     height: auto;
+    
                       }
 .home {
     display: flex;
-    width: 73%;
+    width: 50%;
     height: auto;
     align-items: center;
-    gap: 5%;
+    gap: 7%;
     font-size: 1.2em;
-    
-        }
+       }
 a {
     text-decoration: none;
     color: inherit;
@@ -148,7 +148,7 @@ a {
  }
  .dropdown {
   position:relative;
-  display:inline-block;
+  display:inline-lock;
   cursor: pointer;
 }
 
@@ -156,10 +156,8 @@ a {
   display: none;
   position: absolute;
   background-color: #3D4435;
-  min-width:160px;
-  padding: 12px 0px;
-  z-index: 1;
-}
+  min-width:140px;
+  }
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -172,129 +170,163 @@ a {
     background-position-y:84%;
         
  }
+ .page2 {
+   width: 100%;
+   height: auto;
+   padding-bottom: 13%;
+    }
  .workwith {
     display: flex;
     width: 100%;
     height: 187px;
-    padding-left: 35%;
+    padding: 13% 0% 4% 35%;
     align-items: end;
     font-size: 40px;
     color: #FFFFFF; 
-    
  }
- .list {
+ .coaching-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5%;
+ }
+ .coaching {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     align-items: center;
-    margin-bottom: 0%;
-    padding: 55px 120px;
-    font-size: 30px;
+    font-size: 16px;
     color: #FFFFFF; 
-    
-    
+     }
+ .coaching-titlle {
+    font-size: 1.9em;
+    width: 100%;
+    padding: 0% 0% 10% 25%;
+       }
+ .coaching-content {
+    font-size: 0.9em;
+    padding: 0% 10% 5% 15%;
+      }
+ .online {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 16px;
+  color: #FFFFFF; 
+     }
+ .online-title {
+  font-size: 1.9em;
+  width: 100%;
+  padding:0% 0% 10% 20%;
+    }
+ .online-content {
+  font-size: 0.9em;
+  padding: 0% 5% 5% 15%;
+  align-items: center;
  }
- .choice {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 35px;
-    margin-top: -10px;
-    gap: 38px;
-    background-color: #3D4435;
-    color: #FFFFFF; 
-    text-align: center;
+ .live-events {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 16px;
+  color: #FFFFFF;
  }
- .learn {
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    height: 60px;
-    gap: 400px;
-    padding-left: 150px;
-    padding-bottom: 170px;
-    padding-top: 20px;
-    background-color: #3D4435;
-    color: #FFFFFF; 
- }
- 
+.live-title {
+  font-size: 1.9em;
+  width: 100%;
+  padding:0% 0% 10% 20%;
+}
+.live-content {
+  font-size: 0.9em;
+  padding: 0% 5% 5% 15%;
+  align-items: center;
+}
+.event {
+  text-decoration: underline;
+  }
 .page3 { 
-    height: 605px;
-    padding-top: 35px;
-    color: #FFFFFF; 
-    
+   width: 100vw;
+   height: auto;
+   padding: 3% 0% 15% 4%;
+   color: #FFFFFF; 
+      
 }
 .nutrition {
   font-size: 20px;
   width: 120px;
   margin-top: -10px;
-  
-}
+  }
  .imageeating {
-    width: 305px;
-    height: 363px;
-    margin-top: 30px;
-    margin-left: 0px;
+    width: 23%;
+    height: 54vh;
+    margin-top: 5%;
     background-image: url("Wellness\ by\ Myhra_files/image-asset.jpeg");
     background-size: cover;
     background-position-y: 70%;
-     }
+         }
  .improving {
-  width: 600px;
-  height:120px;
-  margin-left: 680px;
-  margin-top: -460px;
-  font-size: 32px;
-
- }
+    display: flex;
+    width: 40vw;
+    height:15vh;
+    margin: -39% 0% 5% 50%;
+    font-size: 32px;
+   }
+   .try-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 50%;
+    width: 43vw;
+    height: auto;
+       }
  .try {
-  display: flex;
-  flex-direction: column;
-  display: flex;
-  width: 250px;
-  margin-top: 10px;
-  margin-left: 680px;
- }
+    width: 18vw;
+       }
  .target {
-  display: flex;
-  flex-direction: column;
-  width: 240px;
-  margin-top: -200px;
-  margin-left: 980px;
- }
+    width: 17vw;
+    }
  .page4 {
-   height: 655px;
-   padding-top: 35px;
+   display: flex;
+   width: 100vw;
+   height: auto;
+   padding: 3% 0% 15% 4%;
    color: #FFFFFF; 
+      
  }
  .wellness {
   font-size: 20px;
-  width: 120px;
-  margin-top: -10px;
+  width: 12vw;
+  height: 10vh;
+  margin: ;
+  border: red solid;
  }
  .creating {
-  width: 600px;
-  height:120px;
-  margin-left: 680px;
-  margin-top: -480px;
-  font-size: 32px;
+    width: 100vw;
+    height:15vh;
+    margin: -2% 0% 15% 50%;
+    font-size: 32px;
+    border: red solid;    
  }
  .through   {
-  width: 520px;
+  width: 700vw;
+  height: 20vh;
   font-size: 20px;
-  margin-top: 10px;
-  margin-left: 680px;
+  border: red solid;
 }
 .imageasset1 {
-  width: 305px;
-  height: 393px;
-  margin-top: 50px;
+  width: 23%;
+  height: 54vh;
+  margin-top: 5%;
   margin-left: 0px;
   background-image: url("Wellness by Myhra_files/image-asset(1).jpeg");
   background-size: cover;
   background-position-y: 70%; 
+  border: red solid;
   }
 .button {
   margin-top: 55px;
-  margin-left: 680px;
+  margin-left: 60px;
   background-color: #C2C8CC;
   color: black;
   padding: 17px 54px;
@@ -303,7 +335,7 @@ a {
   display: inline-block;
   font-size: 20px;
   cursor: pointer;
-  
+  border: red solid;
 }
 .page5 {
   display: flex;
