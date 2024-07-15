@@ -81,8 +81,7 @@
     align-items: center;
     gap: 7%;
     font-size: 1.2em;
-    border: red solid;
-       }
+          }
 a {
     text-decoration: none;
     color: inherit;
@@ -92,15 +91,14 @@ a {
     width: 12vw;
     height: 70px;
     gap: 20%;
-    
-    }
+        }
 .log {
     display: flex;
     width: 15vw;
     height: auto;
     font-size: 18px;
     margin-left: 81%;
-    margin-top: -8%;
+    margin-top: -6%;
             }
 .login {
     padding: 8px;
@@ -112,8 +110,7 @@ a {
     padding-top: 12px;
     background-color: #C2C8CC;
     color: #000000;
-    
-}
+    }
 .middle {
  display: flex;
  flex-direction: column;
@@ -144,21 +141,17 @@ a {
     padding: 0px 70px;
     width: 530px;
     height: 70px;
-       
- }
- .dropdown {
+     }
+  .dropdown {
   position:relative;
-  display:inline-lock;
   cursor: pointer;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #3D4435;
   min-width:140px;
   }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
