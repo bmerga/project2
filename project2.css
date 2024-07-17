@@ -49,7 +49,7 @@
     flex-direction: column;
     background-color: #3D4435; 
     padding: 30px 0px 0px 0px;
-    max-width: 100%;
+    width: 100vw;
               }
   .top {
     display: flex;
@@ -62,7 +62,7 @@
           }
   .title { 
     display: flex;
-    align-self: center;;
+    padding-left: 36%;
     font-size: 30px;
     font-weight: 500;
                      }
@@ -76,10 +76,9 @@
                       }
 .home {
     display: flex;
-    width: 50%;
     height: auto;
     align-items: center;
-    gap: 7%;
+    gap: 9%;
     font-size: 1.2em;
           }
 a {
@@ -166,8 +165,8 @@ a {
  .page2 {
    width: 100%;
    height: auto;
-   padding-bottom: 13%;
-    }
+   padding-bottom: 8%;
+       }
  .workwith {
     display: flex;
     width: 100%;
@@ -179,9 +178,10 @@ a {
  }
  .coaching-container {
     display: flex;
+    padding: 0% 6%;
     justify-content: center;
-    gap: 5%;
- }
+    gap: 6%;
+    }
  .coaching {
     display: flex;
     flex-direction: column;
@@ -189,7 +189,7 @@ a {
     align-items: center;
     font-size: 16px;
     color: #FFFFFF; 
-     }
+         }
  .coaching-titlle {
     font-size: 1.9em;
     width: 100%;
@@ -197,7 +197,8 @@ a {
        }
  .coaching-content {
     font-size: 0.9em;
-    padding: 0% 10% 5% 15%;
+    text-align: center;
+    
       }
  .online {
   display: flex;
@@ -206,7 +207,7 @@ a {
   align-items: center;
   font-size: 16px;
   color: #FFFFFF; 
-     }
+      }
  .online-title {
   font-size: 1.9em;
   width: 100%;
@@ -214,8 +215,7 @@ a {
     }
  .online-content {
   font-size: 0.9em;
-  padding: 0% 5% 5% 15%;
-  align-items: center;
+  text-align: center;
  }
  .live-events {
   display: flex;
@@ -224,6 +224,7 @@ a {
   align-items: center;
   font-size: 16px;
   color: #FFFFFF;
+   
  }
 .live-title {
   font-size: 1.9em;
@@ -232,8 +233,7 @@ a {
 }
 .live-content {
   font-size: 0.9em;
-  padding: 0% 5% 5% 15%;
-  align-items: center;
+  text-align: center;
 }
 .event {
   text-decoration: underline;
@@ -241,14 +241,13 @@ a {
 .page3 { 
    width: 100vw;
    height: auto;
-   padding: 3% 0% 15% 4%;
+   padding: 2% 4% 15% 4%;
    color: #FFFFFF; 
-      
-}
+     }
 .nutrition {
   font-size: 20px;
   width: 120px;
-  margin-top: -10px;
+  margin-top: 15px;
   }
  .imageeating {
     width: 23%;
@@ -264,6 +263,7 @@ a {
     height:15vh;
     margin: -37% 0% 5% 50%;
     font-size: 32px;
+    
    }
    .try-container {
     display: flex;
@@ -284,20 +284,20 @@ a {
    flex-direction: column;
    width: 100vw;
    height: auto;
-   padding: 3% 0% 15% 4%;
+   padding: 2% 4% 15% 4%;
    color: #FFFFFF; 
-      
+    
  }
  .wellness {
   font-size: 20px;
   width: 12vw;
   height: 10vh;
-  
+  padding-top: 2%;
    }
  .creating {
     width: 43vw;
     height:15vh;
-    margin: -37% 0% 15% 50%;
+    margin: -35% 0% 15% 50%;
     font-size: 32px;
      }
  .through   {
@@ -327,26 +327,30 @@ a {
   font-size: 20px;
   cursor: pointer;
   }
+  .break {
+    padding:0% 5%;
+  }
 .page5 {
   display: flex;
   width: 100%;
   height: 75vh;
+    
     }
 .recipes {
-  width: 19vw;
-  height: 7vh;
-  padding-top: 10px;
-  padding-left: 50px;
+  padding-top: 2%;
+  text-align: center;
   font-size: 20px;
   color: white;
+  
     }
 .immages5 {
   width: 100%;
   height: 53vh;
-  margin: 5% 5% 0% -14%;
+  padding-top: 5% ;
   display: flex;
   color: #FFFFFF; 
   gap: 2%;
+  margin-left: -7%;
          }
 
 .imageasset21 {
@@ -395,7 +399,6 @@ a {
   color: #FFFFFF;
   align-items: center;
   margin-top: -60px;
-  margin-left: 5%;
   margin-bottom: 60px;
  
 }
@@ -406,11 +409,11 @@ a {
 }
 .fruit {
   width:160px;
-  margin-left: 6%;
+  margin-left: 7%;
 }
 .avocado {
   width:160px;
-  margin-left: 7%;
+  margin-left: 8%;
 }
 .ginger {
   width: 130px;
